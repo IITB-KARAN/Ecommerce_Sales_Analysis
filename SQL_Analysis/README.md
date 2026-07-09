@@ -79,7 +79,8 @@ Created a reusable analytical view by:
 
 ## 2. Customer Segmentation
 
-**SQL File:** [1_Customer_Segmentation.sql](1_Customer_Segmentation.sql)
+**SQL File:** [1_Customer_Segmentation.sql](/SQL_Analysis/SQL_Queries/1_Customer_Segmentation.sql)
+
 
 Customers were segmented according to their Lifetime Value (LTV) using percentile-based thresholds.
 
