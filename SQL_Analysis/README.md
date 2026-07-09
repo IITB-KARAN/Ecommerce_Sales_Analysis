@@ -65,7 +65,7 @@ The analysis uses sales transaction data combined with customer information.
 
 ## 1. Data Preparation
 
-**SQL File:** [0_create_view.sql](0_create_view.sql)
+**SQL File:** [0_create_view.sql](SQL_Queries/0_create_view.sql)
 
 
 Created a reusable analytical view by:
@@ -79,7 +79,7 @@ Created a reusable analytical view by:
 
 ## 2. Customer Segmentation
 
-**SQL File:** [1_Customer_Segmentation.sql](/SQL_Queries/1_Customer_Segmentation.sql)
+**SQL File:** [1_Customer_Segmentation.sql](SQL_Queries/1_Customer_Segmentation.sql)
 
 
 Customers were segmented according to their Lifetime Value (LTV) using percentile-based thresholds.
@@ -113,7 +113,7 @@ Customers were segmented according to their Lifetime Value (LTV) using percentil
 
 ## 3. Cohort Analysis
 
-**SQL File:** [2_Cohort_Analysis.sql](/SQL_Queries/2_Cohort_Analysis.sql)
+**SQL File:** [2_Cohort_Analysis.sql](SQL_Queries/2_Cohort_Analysis.sql)
 
 Customer cohorts were grouped based on the year of their first purchase to evaluate long-term revenue performance.
 
@@ -150,7 +150,7 @@ Customer cohorts were grouped based on the year of their first purchase to evalu
 
 ## 4. Customer Retention Analysis
 
-**SQL File:** [3_Retention_Analysis.sql](/SQL_Queries/3_Retention_Analysis.sql)
+**SQL File:** [3_Retention_Analysis.sql](SQL_Queries/3_Retention_Analysis.sql)
 
 Measured customer retention by identifying inactive customers based on purchase history.
 
